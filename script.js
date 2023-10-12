@@ -1,5 +1,12 @@
+
 function decimalToBinary(num) {
-  //Write you code here
+	let arr=[];
+    while(num!=0)
+		{
+			arr.push(num%2);
+			num=num/2;
+		}
+	return arr;
   
 }
 
