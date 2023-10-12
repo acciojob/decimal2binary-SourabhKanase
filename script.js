@@ -4,7 +4,7 @@ function decimalToBinary(num) {
     while(num!=0)
 		{
 			arr.push(num%2);
-			num=num/2;
+			num=Math.floor(num/2);
 		}
 	return arr;
   
