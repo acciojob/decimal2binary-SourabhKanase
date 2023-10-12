@@ -4,6 +4,7 @@ function decimalToBinary(num) {
     arr.push(num % 2);
     num = Math.floor(num / 2);
   }
+	arr.reverse();
   return arr.join("");
 }
 
